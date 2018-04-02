@@ -12,6 +12,12 @@
     "home": {
         "heading": "Home"
     },
+    "services": {
+      "build": "Build Your Wedding",
+      "singles": "Pre-Designed Stationery",
+      "cheesy": "Signage and Decoration",
+      "business": "Visual Identity for Business"
+    },
     "blog": {
         "recent_posts": "Recent Posts",
         "label": "Blog",
@@ -169,7 +175,7 @@
         "sorter": {
             "relevance": "Relevance",
             "sort_by": "Sort By:",
-            "featured": "Featured Items",
+            "featured": "Favorite Items",
             "top_sellers": "Best Selling",
             "newest": "Newest Items",
             "alpha_asc": "A to Z",
@@ -448,10 +454,10 @@
                     "rss_atom": "Latest {limit} Popular Products (Atom)"
                 },
                 "featured": {
-                    "heading": "Featured Products",
-                    "intro": "The featured products feed contains the latest {limit} featured products on {store}.",
-                    "rss": "Latest {limit} Featured Products (RSS)",
-                    "rss_atom": "Latest {limit} Featured Products (Atom)"
+                    "heading": "Favorites",
+                    "intro": "The Favorite products feed contains the latest {limit} davorite products on {store}.",
+                    "rss": "Latest {limit} Favorite Products (RSS)",
+                    "rss_atom": "Latest {limit} Favorite Products (Atom)"
                 }
             },
             "search": {
@@ -541,9 +547,9 @@
                 "paid": "Only Paid Shipping"
             },
             "featured_products": {
-                "title": "Featured Products",
-                "enabled": "Only Featured Products",
-                "disabled": "Only Non-Featured Products"
+                "title": "Favorites",
+                "enabled": "Only Favorites",
+                "disabled": "Only Non-Favorites"
             },
             "categories": "Categories",
             "did_you_mean": "Did you mean:",
@@ -617,7 +623,7 @@
         "related_products": "Related Products",
         "top": "Most Popular Products",
         "similar_by_views": "Customers Also Viewed",
-        "featured": "Featured Products",
+        "featured": "Favorites",
         "file_option_set": "Currently: <a href=\"{url}\" target=\"_blank\">{name}</a>",
         "new": "New Products",
         "warranty": "Warranty Information",

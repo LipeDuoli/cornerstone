@@ -49,15 +49,15 @@ $buttonStyle-disabled-borderColor:           stencilColor("button--disabled-bord
 $buttonStyle-disabled-borderColorHover:      null;
 $buttonStyle-disabled-borderColorActive:     null;
 
-$buttonStyle-tertiary-color:                 null;
+$buttonStyle-tertiary-color:                 #000;
 $buttonStyle-tertiary-colorHover:            null;
 $buttonStyle-tertiary-colorActive:           null;
-$buttonStyle-tertiary-backgroundColor:       null;
-$buttonStyle-tertiary-backgroundColorHover:  null;
-$buttonStyle-tertiary-backgroundColorActive: null;
-$buttonStyle-tertiary-borderColor:           null;
-$buttonStyle-tertiary-borderColorHover:      null;
-$buttonStyle-tertiary-borderColorActive:     null;
+$buttonStyle-tertiary-backgroundColor:       transparent;
+$buttonStyle-tertiary-backgroundColorHover:  rgba(#666, 0.5);
+$buttonStyle-tertiary-backgroundColorActive: rgba(#666, 0.5);
+$buttonStyle-tertiary-borderColor:           #000;
+$buttonStyle-tertiary-borderColorHover:      #000;
+$buttonStyle-tertiary-borderColorActive:     #000;
 
 $buttonStyle-action-color:                   null;
 $buttonStyle-action-colorHover:              null;

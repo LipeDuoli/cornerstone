@@ -9,11 +9,14 @@
 
 
 .body {
-    margin-bottom: spacing("double") * 2;
+    margin-bottom: spacing("single") * 2;
     margin-top: spacing("single"); // 1
+    margin-left:auto;
+    margin-right: auto;
 
     @include breakpoint("medium") {
         margin-top: spacing("single") + spacing("base"); // 1
+        max-width: width("7/12");
     }
 }
 

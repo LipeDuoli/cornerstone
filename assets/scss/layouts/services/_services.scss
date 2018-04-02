@@ -1,0 +1,21 @@
+.services {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+  margin-bottom: 4rem;
+
+    @include breakpoint("medium") {
+        flex-direction: row;
+    }
+}
+
+.services img {
+  margin-bottom: 10px;
+
+  @include breakpoint("medium") {
+      margin-bottom: 0px;
+  }
+}
