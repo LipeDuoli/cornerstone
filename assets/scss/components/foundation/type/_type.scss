@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: $header-font-weight;
+    font-weight: 600;
     margin-top: $heading-marginTop;
 }
 
@@ -36,7 +36,7 @@ cite {
 }
 
 .page-heading {
-    margin: 0 0 spacing("double");
+    // margin: 0 0 spacing("double");
     text-align: center;
 }
 

@@ -64,7 +64,7 @@
 
         // scss-lint:disable SelectorDepth, NestingDepth
         li {
-            @include carouselOpaqueBackgrounds($slick-dot-bgColor);
+            @include carouselTransparentBackgrounds();
         }
     }
 }
@@ -107,13 +107,13 @@
 }
 
 .heroCarousel-content {
-    background-color: rgba($carousel-bgColor, 1);
+    background-color: rgba($carousel-bgColor, 0.4);
     padding: spacing("half") spacing("single") (spacing("double"));
     text-align: center;
 
     @include breakpoint("medium") {
         @include carouselOpaqueBackgrounds;
-        background-color: rgba($carousel-bgColor, 0.9);
+        background-color: rgba($carousel-bgColor, 0.4);
         left: 0;
         margin: 0 auto;
         padding: spacing("single") * 1.5;
@@ -135,7 +135,7 @@
     margin-top: 0;
 
     @include breakpoint("medium") {
-        font-size: fontSize("hero");
+        font-size: fontSize("largest");
     }
 }
 

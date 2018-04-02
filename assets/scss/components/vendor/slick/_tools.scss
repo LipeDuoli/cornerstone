@@ -20,3 +20,7 @@
     background-color: $color;
 }
 // scss-lint:enable DuplicateProperty
+
+@mixin carouselTransparentBackgrounds() { // 2
+    background-color: transparent;
+}

@@ -22,11 +22,14 @@
     top: 0;
     width: 100%;
     z-index: zIndex("low");
+    margin-left:auto;
+    margin-right: auto;
 
     @include breakpoint("medium") {
         border-bottom: container("border");
         overflow: visible;
         position: relative;
+        max-width: width("7/12");
     }
 
     &.is-open {
@@ -49,7 +52,7 @@
     }
 
     @include breakpoint("medium") {
-        margin: (spacing("double") + spacing("base")) auto (spacing("double") + spacing("single"));
+        margin: (spacing("single") + spacing("single")) auto (spacing("single") + spacing("single"));
         padding: 0;
 
         .header.fixed & {

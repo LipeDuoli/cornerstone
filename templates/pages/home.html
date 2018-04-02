@@ -24,6 +24,7 @@ blog:
         {{> components/common/alert-info message}}
     {{/each}}
 
+{{> components/common/services}}
 <div class="main full">
     {{#if products.featured}}
         {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
@@ -37,5 +38,6 @@ blog:
         {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
     {{/if}}
 </div>
+<img class="lazyload business" data-sizes="auto" src="{{cdn 'img/loading.svg'}}" data-src="/product_images/uploaded_images/love-ur-business-banner.png" alt="{{lang 'services.business'}}">
 {{/partial}}
 {{> layout/base}}

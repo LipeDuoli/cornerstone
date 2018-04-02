@@ -18,9 +18,9 @@
 
 .slick-next,
 .slick-prev {
-    @include carouselOpaqueBackgrounds($slick-arrow-bgColor);
+    @include carouselTransparentBackgrounds();
     z-index: 1;
-    border: 1px solid $slick-arrow-borderColor;
+    // border: 1px solid $slick-arrow-borderColor;
     height: remCalc(61px);
     margin-top: -(remCalc(30px));
     padding: remCalc(10px);
@@ -37,7 +37,7 @@
 
     &:hover,
     &:focus {
-        @include carouselOpaqueBackgrounds($slick-arrow-bgColor); // 1
+        @include carouselTransparentBackgrounds(); // 1
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -102,7 +102,7 @@
         // scss-lint:disable SelectorDepth, NestingDepth
         button,
         button::before {
-            @include square(15px);
+            @include square(8px);
             border-radius: 50%;
         }
 
