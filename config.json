@@ -5,8 +5,8 @@
     "price": 0,
     "documentation_url": "https://support.bigcommerce.com/articles/Public/Cornerstone-Theme-Manual",
     "author_name": "Fillipe Duoli",
-    "author_email": "",
-    "author_support_url": "https://www.bigcommerce.com/support",
+    "author_email": "info@designingloveshop.com",
+    "author_support_url": "http://designingloveshop.com",
     "composed_image": "composed.png",
     "features": [
       "fully_responsive",
@@ -315,11 +315,11 @@
   },
   "variations": [
     {
-      "name": "Light",
-      "id": "light",
+      "name": "Love",
+      "id": "love",
       "meta": {
-        "desktop_screenshot": "desktop_light.png",
-        "mobile_screenshot": "mobile_light.png",
+        "desktop_screenshot": "desktop_love.png",
+        "mobile_screenshot": "mobile_love.png",
         "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products. It comes ready to build a clean looking and beautiful store with features such as homepage carousel, social media icons, featured and top selling products, and faceted search (which is available on select BigCommerce plans). Fully express your brand by using our Theme Editor to quickly and easily style your site's fonts and colors, all without the need to write code.",
         "demo_url": "https://cornerstone-light-demo.mybigcommerce.com",
         "optimized_for": [

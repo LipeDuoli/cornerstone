@@ -134,7 +134,7 @@
 
 .form-label--alternate {
     font-family: fontFamily("headingSans");
-    font-size: fontSize("smallest");
+    font-size: fontSize("small");
     margin-bottom: spacing("half");
 }
 
@@ -225,7 +225,7 @@
     order: 1; // 1
 
     @include breakpoint("large") {
-        margin: 0 0 0 spacing("half");
+        margin: 0 spacing("half") 0 spacing("half");
         order: 0; // 1
     }
 }
@@ -388,4 +388,8 @@
         opacity: $productOptions-disable-opacity * 2;
         text-decoration: line-through;
     }
+}
+
+[data-product-attribute="textarea"] textarea {
+  height: remCalc(250px);
 }

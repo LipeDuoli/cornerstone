@@ -29,7 +29,7 @@
         border-bottom: container("border");
         overflow: visible;
         position: relative;
-        max-width: width("7/12");
+        max-width: 1110px;
     }
 
     &.is-open {
@@ -164,7 +164,7 @@
     padding-bottom: remCalc($header-height) - $header-logo-marginVertical * 2;
 
     @include breakpoint("medium") {
-        padding-bottom: get-height(stencilString('logo_size'));
+        padding-bottom: 100px;
     }
 }
 

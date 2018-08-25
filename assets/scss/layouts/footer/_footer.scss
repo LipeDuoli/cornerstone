@@ -20,7 +20,7 @@
     padding: spacing("double") 0;
 
     @include breakpoint("medium") {
-        max-width: width("7/12");
+        max-width: 1110px;
     }
 }
 

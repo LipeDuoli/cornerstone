@@ -9,13 +9,21 @@
 
     @include breakpoint("medium") {
         flex-direction: row;
+
+        :first-child {
+          padding-left: 0px;
+        }
+
+        :last-child {
+          padding-right: 0px;
+        }
     }
-}
 
-.services img {
-  margin-bottom: 10px;
+    div {
+      padding: 0 0.3rem 10px 0.3rem;
 
-  @include breakpoint("medium") {
-      margin-bottom: 0px;
-  }
+      @include breakpoint("medium") {
+          padding: 0 0.3rem 0px 0.3rem;
+      }
+    }
 }
